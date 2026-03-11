@@ -132,11 +132,11 @@ transform:scale(1.05);
 
 .project{
 background:white;
-margin:20px auto;
+margin:20px 0;
 box-sizing: border-box;
 padding:25px;
 border-radius:15px;
-width:92%;
+width:100%;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 transition:0.3s;
 }
