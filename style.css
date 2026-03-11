@@ -168,9 +168,10 @@ transform:translateY(-2px);
 
 @media (max-width:480px) {
     .project{
-        width:98%;
+        width:95%;
         margin:10px auto;
         padding:20px;
+        border-radius: 10px;
     }
     .project-btn{
         padding: 6px 12px;
