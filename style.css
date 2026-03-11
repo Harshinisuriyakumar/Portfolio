@@ -52,18 +52,17 @@ color:black;
 
 .hero{
 text-align:center;
-padding:100px;
+padding:100px 20px;
 background:linear-gradient(45deg,#7f5af0,#a78bfa);
 color:black;
 }
 .hero p{
 color:black;
 font-weight:bold;
-display:flex;
-align-items: center;
-justify-content: center;
-gap: 25px;
-flex-wrap: wrap;
+width: 100%;
+max-width: none;
+line-height: 1.6;
+padding: 0 10px;
 text-align: center;
 }
 
