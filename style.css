@@ -58,10 +58,13 @@ color:black;
 }
 .hero p{
 color:black;
-font-weight:bold;   
-max-width:90%;
-margin:auto;
-line-height:1.6;
+font-weight:bold;
+display:flex;
+align-items: center;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+text-align: center;
 }
 
 
