@@ -180,10 +180,10 @@ transform:translateY(-2px);
         font-size:14px;
     }
     .project p{
-    text-align: center
+    text-align: center;
     color: #000000;
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 1.5; 
 }
 }
 
@@ -236,4 +236,26 @@ transform:translateY(-3px);
 
 .resume-box i{
 margin-right:6px;
+}
+@media (max-width:480px){
+
+header{
+flex-direction:row;
+justify-content:space-between;
+align-items:flex-start;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+text-align:right;
+}
+
+nav a{
+display:block;
+margin:8px 0;   
+font-size:14px;
+}
+
 }
